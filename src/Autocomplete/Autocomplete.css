@@ -1,0 +1,20 @@
+.autocomplete {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.autocomplete ul {
+  list-style: none;
+  padding-inline-start: 0.25rem;
+  margin-block-start: 0.25rem;
+  box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.autocomplete ul li span {
+  font-weight: 900;
+}
+
+.autocomplete ul li:hover {
+  font-weight: 900;
+  background-color: rgb(170, 209, 246);
+}
